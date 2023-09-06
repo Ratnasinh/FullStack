@@ -1,6 +1,6 @@
-package credentialService;
+package com.fullstack.newemployee.credentialService;
 
-import Employee.Employee;
+import com.fullstack.newemployee.details.Employee;
 
 public interface ICredentialService {
 	public void generateEmail(Employee employee);

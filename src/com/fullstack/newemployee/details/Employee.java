@@ -1,4 +1,4 @@
-package Employee;
+package com.fullstack.newemployee.details;
 
 public class Employee {
 

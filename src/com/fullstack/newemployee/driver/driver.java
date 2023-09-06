@@ -1,10 +1,10 @@
-package main;
+package com.fullstack.newemployee.driver;
 
 import java.util.Scanner;
 
-import Employee.Employee;
-import credentialService.CredentialService;
-import credentialService.ICredentialService;
+import com.fullstack.newemployee.credentialService.CredentialService;
+import com.fullstack.newemployee.credentialService.ICredentialService;
+import com.fullstack.newemployee.details.Employee;
 
 public class driver {
 

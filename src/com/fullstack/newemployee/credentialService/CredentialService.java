@@ -1,8 +1,8 @@
-package credentialService;
+package com.fullstack.newemployee.credentialService;
 
 import java.util.Random;
 
-import Employee.Employee;
+import com.fullstack.newemployee.details.Employee;
 
 public class CredentialService implements ICredentialService {
 
@@ -37,7 +37,7 @@ public class CredentialService implements ICredentialService {
 		// TODO Auto-generated method stub
 		System.out.println("Dear" + employee.getFirstName() + "your generated credentials are as follows");
 		System.out.println("Email\t\t: " + employee.getEmailAddress());
-		System.out.println("Password\t " + employee.getPassword());
+		System.out.println("Password\t: " + employee.getPassword());
 	}
 
 }
